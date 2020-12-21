@@ -18,7 +18,7 @@ namespace CaptchaProject
         protected void Page_Load(object sender, EventArgs e)
         {
             Captcha captcha = new Captcha(1);
-            Bitmap captchaImg = captcha.getCaptcha();
+            Bitmap captchaImg = captcha.GetCaptcha();
             captchaImg.Save(Response.OutputStream, ImageFormat.Png);
         }
     }

@@ -245,7 +245,7 @@ namespace CaptchaProject
         /// Return captcha image
         /// </summary>
         /// <returns>Captcha image</returns>
-        public Bitmap getCaptcha()
+        public Bitmap GetCaptcha()
         {
             return this.captcha;
         }
@@ -254,7 +254,7 @@ namespace CaptchaProject
         /// Return captcha code
         /// </summary>
         /// <returns>Captcha code</returns>
-        public string getCaptchaCode()
+        public string GetCaptchaCode()
         {
             return this.captchaCode;
         }

@@ -18,8 +18,8 @@ namespace CaptchaProject
         protected void Page_Load(object sender, EventArgs e)
         {
             Captcha captcha = new Captcha();
-            Bitmap captchaImg = captcha.getCaptcha();
-            this.Session["captchaCode"] = captcha.getCaptchaCode();
+            Bitmap captchaImg = captcha.GetCaptcha();
+            this.Session["captchaCode"] = captcha.GetCaptchaCode();
             captchaImg.Save(Response.OutputStream, ImageFormat.Png);
         }
     }
