@@ -14,7 +14,7 @@
         <br />
         <asp:TextBox ID="userInput" runat="server" />
         <br />
-        <asp:Button ID="confirm" Text="Envoyer" runat="server" />
+        <asp:Button ID="confirm" Text="Confirm" runat="server" />
         <br />
         <asp:Label ID="error" runat="server" />
     </form>
