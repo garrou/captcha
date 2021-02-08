@@ -10,6 +10,6 @@
 <body>
     <h1>Welcome !</h1>
     <p>Correct captcha code.</p>
-    <asp:Image ID="secondCaptcha" ImageUrl="~/CallSecondCaptcha.aspx" runat="server" />
+    <asp:Image ID="secondCaptcha" ImageUrl="~/views/CallSecondCaptcha.aspx" runat="server" />
 </body>
 </html>

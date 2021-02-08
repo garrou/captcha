@@ -10,7 +10,7 @@
 <body>
     <h1>Captcha</h1>
     <form id="form1" runat="server">
-        <asp:Image ID="bitmap" ImageUrl="~/CallCaptcha.aspx" runat="server" />
+        <asp:Image ID="bitmap" ImageUrl="~/views/CallCaptcha.aspx" runat="server" />
         <br />
         <asp:TextBox ID="userInput" runat="server" />
         <br />
